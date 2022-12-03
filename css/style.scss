@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-y: scroll;
+}
+@font-face {
+    font-family: 'fonte6';
+    src: url(../fontes/RetroSignature.otf);
+}
+@font-face {
+    font-family: 'fonte3';
+    src: url(../fontes/Sanantha.ttf);
+}
+
+$cor-rosa: #FA699D;
+// font-family: 'Poppins', sans-serif;
+
+.logo{
+    // border: 1px solid red;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $cor-rosa;
+    .menu{
+        // border: 5px solid red;
+        width: 600px;
+        height: 50px;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+            li{
+                margin-right: 50px;
+                list-style-type: none;      
+                  a{
+                text-decoration: none;
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 100;
+                color: #fff;
+                text-shadow: 0.2em 0.2em 0.2em rgb(129, 0, 54);
+                transition: 0.5s ease-in-out;
+               }a:hover{
+                font-size: 19px;
+               }
+            }     
+        }
+    }
+}
+
+
+//////////////header
+.header{
+//  border: 1px solid red;
+height: 800px;
+background-image: url(../img/capa1.png);
+display: flex;
+align-items: center;
+justify-content: flex-end;
+.box{
+//  border: 1px solid red;
+width: 60%;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+
+
+.title{
+//  border: 1px solid red;
+height: 370px;
+width: 1000px;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+
+    h2{
+        font-size: 48px;
+       font-family: 'Poppins', sans-serif;
+       text-shadow: 0.2em 0.2em 0.2em rgb(129, 0, 54);
+       color: #fff;
+    }
+
+    h1{
+        margin-left: 80px;
+        font-family: 'fonte3';
+        font-size: 60px;
+       text-shadow: 0.2em 0.2em 0.2em rgb(129, 0, 54);
+        color: #fff;
+        // animation: teste 1s infinite alternate;
+        animation: teste 1s infinite alternate;
+        -webkit-animation: teste 1s infinite alternate;
+
+        span{
+            color: rgb(255, 1, 128);
+       text-shadow: 0.2em 0.2em 0.2em rgb(34, 34, 34);
+
+        }
+    }
+    
+@keyframes teste {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+}
+}
+
+
+.btn{
+    button{
+        height: 60px;
+        width: 120px;
+        border-radius: 15px;
+        border:none;
+        background-color: rgb(255, 16, 128);
+        transition: 0.5s ease-in-out;
+        animation: btn 1s infinite alternate;
+
+
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 100;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }button:hover{
+            border-radius: 0px;
+            background-color: rgb(255, 83, 149);
+        }
+
+           
+@keyframes btn {
+    from {
+      transform: translateX(15px);
+    }
+    to {
+      transform: translateX(-15px);
+    }
+  }
+}
+}
+
+
+
+////////////////seção 1
+.section1{
+    height: 850px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../img/capa2.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    .video{
+    height: 600px;
+    width: 1200px;
+    }
+
+    .box{
+    box-shadow:     0 0 30px 10px #fff,  
+    0 0 100px 60px $cor-rosa,
+    0 0 140px 90px;
+    height: 690px;
+    width: 400px;
+
+    .cx{
+        width: 400px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 15px;
+
+        .title{
+        width: 50%;
+        p{
+            text-align: start;
+            font-family: 'Poppins', Sans-serif;
+            font-size: 14px;
+            color: #fff;
+       text-shadow: 0.2em 0.2em 0.2em rgb(34, 34, 34);
+
+        }
+        }
+
+        .video{
+        height: 100px;
+        width: 150px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+
+        }
+    }
+
+    }
+}
