@@ -315,6 +315,7 @@ body {
 .rdp .box3 a {
   color: rgb(187, 187, 187);
   font-size: 22px;
+  text-decoration: none;
 }
 .rdp .box3 i {
   color: rgb(221, 221, 221);
