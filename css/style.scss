@@ -39,7 +39,8 @@ $cor-rosa: #FA699D;
             margin-top: 10px;
             li{
                 margin-right: 50px;
-                list-style-type: none;      
+                list-style-type: none;
+
                   a{
                 text-decoration: none;
                 font-size: 18px;
@@ -347,7 +348,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-around;
 
-    a{
+    a, .um{
         color: rgb(187, 187, 187);
         font-size: 22px;
         text-decoration: none;

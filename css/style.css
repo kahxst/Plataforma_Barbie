@@ -312,7 +312,7 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.rdp .box3 a {
+.rdp .box3 a, .rdp .box3 .um {
   color: rgb(187, 187, 187);
   font-size: 22px;
   text-decoration: none;
