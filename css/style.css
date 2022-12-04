@@ -143,18 +143,18 @@ body {
 }
 @-webkit-keyframes btn {
   from {
-    transform: translateX(15px);
+    transform: translateX(25px);
   }
   to {
-    transform: translateX(-15px);
+    transform: translateX(-25px);
   }
 }
 @keyframes btn {
   from {
-    transform: translateX(15px);
+    transform: translateX(25px);
   }
   to {
-    transform: translateX(-15px);
+    transform: translateX(-25px);
   }
 }
 
@@ -200,4 +200,136 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 10px;
+}
+
+.section2 {
+  height: 475px;
+  background-image: url(../img/capa33.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section2 .box {
+  width: 70%;
+  height: 400px;
+}
+.section2 .title {
+  height: 230px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.section2 .title h1 {
+  font-family: "fonte3";
+  font-size: 50px;
+  text-shadow: 0.2em 0.2em 0.2em rgb(129, 0, 54);
+  color: #fff;
+  animation: teste 1s infinite alternate;
+  -webkit-animation: teste 1s infinite alternate;
+}
+.section2 .title h1 span {
+  color: rgb(255, 1, 128);
+  text-shadow: 0.2em 0.2em 0.2em rgb(34, 34, 34);
+}
+.section2 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.section2 .btn button {
+  height: 60px;
+  width: 120px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(255, 16, 128);
+  transition: 0.5s ease-in-out;
+  -webkit-animation: btn 1s infinite alternate;
+          animation: btn 1s infinite alternate;
+}
+.section2 .btn button a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section2 .btn button:hover {
+  border-radius: 0px;
+  background-color: rgb(255, 83, 149);
+}
+@keyframes btn {
+  from {
+    transform: translateX(15px);
+  }
+  to {
+    transform: translateX(-15px);
+  }
+}
+
+.rdp {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(116, 3, 72);
+}
+.rdp .box p {
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 100;
+}
+.rdp .box2 {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rdp .box2 a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 0.2em 0.2em 0.2em rgb(129, 0, 54);
+  transition: 0.5s ease-in-out;
+  margin-bottom: 10px;
+}
+.rdp .box2 a:hover {
+  font-size: 19px;
+}
+.rdp .box3 {
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.rdp .box3 a {
+  color: rgb(187, 187, 187);
+  font-size: 22px;
+}
+.rdp .box3 i {
+  color: rgb(221, 221, 221);
+  transition: 0.5s;
+  font-size: 26px;
+}
+.rdp .box3 .roxo:hover {
+  color: rgb(175, 4, 175);
+  transition: 0.5s;
+}
+.rdp .box3 .azul:hover {
+  color: rgb(0, 83, 238);
+  transition: 0.5s;
+}
+.rdp .box3 .twi:hover {
+  color: rgb(0, 154, 214);
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
